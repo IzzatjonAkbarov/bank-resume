@@ -1,0 +1,41 @@
+console.log("salom");-->bu teg hudddi print ga oxshaydi console ga yozilgan text yoki buyruqlarni chiqaradi
+//
+comment olish 2xil--> // and /* farqi comment olissh hajmida   */
+//
+alert--> malumot chiqarish uchun kerak buladi 
+//
+confirm--> malumot tasdiqlash uchun kerak boladi 
+//
+prompt--> malumot olish uchun 
+//
+varibles-->ozgaruvchilar 3ta let const var 
+var foydalanish tavsiya etilmaydi chunki ikkta uzgaruvchi bersa buladi va
+let var oxxshasshligi uzgaruchini uzgartirish mumkin 
+constantda emas
+uzgaruvchi nomlash qoidalari 
+camel firstName
+snake first_name
+pascal NirstName
+kebabcase first-name 
+$
+_
+data types 
+primitive
+
+....
+number 123
+symbole uniqe email passwordda ishlatish mumkin masalan
+
+string hello world
+boolean true false
+big int 9007199254740991 engkattaa son dan keyin n qoyiladi yoki shunchaki n orqali
+undefined variable bor qiymat yoq
+ null variable bor qiymat bosh
+
+
+
+
+
+no primitive reference
+arrray [ true, false , "smth" ,1,2,3]toplam xoxlagan turdagi malumot lar kiritsa boladi 
+object { } 23uzgaruvchi yozib ketsak boladi
