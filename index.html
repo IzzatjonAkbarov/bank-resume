@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/uikit@3.21.16/dist/css/uikit.min.css" />
+    <link
+      rel="shortcut icon"
+      href="./src/assets/img/footerimg2.png"
+      type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./dist/output.css" />
+  </head>
+  <body>
+    <header class="header bg-[#f4f9fb]">
+      <nav class="container1 flex items-center justify-between py-7">
+        <a href="/">
+          <nav>
+            <img src="./src/assets/svg/logo.svg" alt="" />
+          </nav>
+        </a>
+        <nav class="flex items-center gap-3">
+          <button
+            class="border border-[#007db6] bg-[#007db6] py-3 px-6 rounded text-white font-medium transition-all hover:bg-[#59c1f1] active:scale-[0.9] max-[448px]:hidden">
+            Вход
+          </button>
+          <button
+            class="max-[366px]:hidden border border-[#007db6] bg-[#fff] py-3 px-6 rounded text-[#007db6] font-medium transition-all hover:bg-[#59c1f1] active:scale-[0.9]">
+            Регистрация
+          </button>
+        </nav>
+
+        <label class="hidden max-[366px]:block" for="check">
+          <i class="fa-solid fa-bars bar"></i>
+        </label>
+      </nav>
+    </header>
+
+    <section class="bg-[#f4f9fb]">
+      <div
+        class="container1 flex items-center gap-5 justify-between max-[1051px]:flex-col py-10">
+        <div class="w-[50%] relative max-[1051px]:w-full">
+          <h1
+            class="text-[#292929] font-extrabold uppercase text-[50px] max-[505px]:text-[30px] max-[330px]:text-[20px]">
+            команды мечты создаются здесь
+          </h1>
+          <p
+            class="text-[15px] text-[#292929] mt-[12px] mb-[32px] max-[330px]:text-[13px]">
+            помощник в поиске работы и сотрудников
+            <br class="max-[505px]:hidden" />
+            в сфере образования
+          </p>
+          <button
+            class="border border-[#007db6] text-[15px] bg-[#007db6] py-3 px-6 rounded text-white font-medium transition-all hover:bg-[#59c1f1] active:scale-[0.9]">
+            Начать
+          </button>
+        </div>
+        <div class="mb-[-90px]">
+          <img src="./src/assets/svg/showcase.svg" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="mt-[100px]">
+      <div class="container1 overflow-scroll">
+        <div
+          class="flex gap-10 justify-center max-[1046px]:w-[993px] max-[318px]:justify-between">
+          <div
+            class="rounded-[16px] bg-[#F4F9FB] p-[70px] flex items-center justify-center md:[w-[400px] flex-col max-[318px]:w-auto max-[318px]:p-[40px]">
+            <img src="./src/assets/img/cardimg.png" alt="" />
+            <div>
+              <h1 class="text-center text-[40px] font-extrabold">67</h1>
+              <p class="text-center">
+                предложений о <br />
+                работе
+              </p>
+            </div>
+          </div>
+          <div
+            class="bg-[#F4F9FB] p-[70px] flex items-center justify-center flex-col md:w-[400px] max-[318px]:w-auto max-[318px]:p-[40px]">
+            <img src="./src/assets/img/cardimg2.png" alt="" />
+            <div>
+              <h1 class="text-center text-[40px] font-extrabold">180</h1>
+              <p class="text-center">
+                размещенных <br />
+                резюме
+              </p>
+            </div>
+          </div>
+          <div
+            class="rounded-[16px] bg-[#F4F9FB] p-[70px] flex items-center justify-center flex-col md:[w-[400px] max-[318px]:w-auto max-[318px]:p-[40px]">
+            <img src="./src/assets/img/cardimg3.png" alt="" />
+            <div>
+              <h1 class="text-center text-[40px] font-extrabold">113</h1>
+              <p class="text-center">
+                приглашений на <br />
+                собеседование 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-[100px]">
+      <div
+        class="container1 flex items-center justify-between gap-[40px] max-[898px]:flex-col">
+        <div
+          class="flex px-[39px] h-[300px] py-[20px] max-[350px]:px-[20px] rounded-[16px] bg-[#f4f9fb] items-center w-full gap-5 justify-between">
+          <div class="flex items-start justify-center flex-col">
+            <h1 class="text-[20px] font-bold max-[375px]:text-[16px]">
+              Для работодателей
+            </h1>
+            <p class="py-[15px] max-[375px]:text-[14px]">
+              Доступ к банку резюме предоставляется<br
+                class="max-[1268px]:hidden" />
+              администрациям школ города Москвы.<br
+                class="max-[1268px]:hidden" />
+              Если вы являетесь директором
+              <br class="max-[425px]:hidden" />московской школы, вы можете войти
+              в<br class="max-[425px]:hidden" />
+              банк резюме, используя единую учетную
+              <br class="max-[1268px]:hidden" />
+              запись ЕКИС.
+            </p>
+            <button
+              class="border border-[#007db6] text-[15px] bg-[#007db6] py-3 px-6 rounded text-white font-medium transition-all hover:bg-[#59c1f1] active:scale-[0.9] max-[425px]:w-full">
+              Вход
+            </button>
+          </div>
+          <div class="mt-[-70px] max-[1268px]:hidden">
+            <img
+              class="w-[155px] h-[300px]"
+              src="./src/assets/img/people.png"
+              alt="" />
+          </div>
+        </div>
+        <div
+          class="flex px-[39px] h-[300px] py-[20px] max-[350px]:px-[20px] rounded-[16px] bg-[#f4f9fb] items-center w-full gap-5 justify-between">
+          <div class="flex items-start justify-center flex-col">
+            <h1 class="text-[20px] font-bold max-[375px]:text-[16px]">
+              Для соискателей
+            </h1>
+            <p class="py-[15px] max-[375px]:text-[14px]">
+              Ваш помощник в поиске работы в <br class="max-[1268px]:hidden" />
+              московских школах.<br class="max-[425px]:hidden" />
+              Если вы являетесь директором
+              <br class="max-[1268px]:hidden" />Бесплатная публикация резюме
+            </p>
+            <div class="flex gap-2 max-[425px]:flex-col">
+              <button
+                class="border max-[425px]:w-full border-[#007db6] bg-[#fff] py-3 px-6 rounded text-[#007db6] font-medium transition-all hover:bg-[#59c1f1] active:scale-[0.9]">
+                Зарегистрироваться
+              </button>
+
+              <button
+                class="border border-[#007db6] max-[425px]:w-full text-[15px] bg-[#007db6] py-3 px-6 rounded text-white font-medium transition-all hover:bg-[#59c1f1] active:scale-[0.9]">
+                Вход
+              </button>
+            </div>
+          </div>
+          <div class="mt-[-70px] max-[1268px]:hidden">
+            <img
+              class="w-[155px] h-[300px]"
+              src="./src/assets/img/people.png"
+              alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container1">
+        <div
+          class="flex flex-row rounded-[20px] bg-[#f4f9fb] py-[27px] px-[40px] gap-5 max-md:flex-col max-[375px]:px-[20px]">
+          <div class="basis-1/2 flex flex-col gap-[18px]">
+            <div
+              class="rounded-[16px] bg-[#FF879F] py-[27px] px-[40px] w-full max-[375px]:px-[20px]">
+              <div
+                class="rounded-[8px] px-[13px] py-[5px] text-[#FF879F] w-fit bg-[#fff] mb-8 text-[18px] font-semibold max-[375px]:text-[13px]">
+                1
+              </div>
+              <h1
+                class="text-[24px] font-bold text-white max-[375px]:text-[16px]">
+                Запишитесь
+              </h1>
+              <p
+                class="text-[15px] font-normal text-white max-[375px]:text-[13px]">
+                на консультацию
+              </p>
+            </div>
+            <div
+              class="rounded-[16px] bg-[#65B2D6] py-[27px] px-[40px] w-full max-[375px]:px-[20px]">
+              <div
+                class="rounded-[8px] px-[13px] py-[5px] text-[#65B2D6] w-fit bg-[#fff] mb-8 text-[18px] font-semibold max-[375px]:text-[13px]">
+                2
+              </div>
+              <h1
+                class="text-[24px] font-bold text-white max-[375px]:text-[16px]">
+                пройдите курс
+              </h1>
+              <p
+                class="text-[15px] font-normal text-white max-[375px]:text-[13px]">
+                в комфортном режиме
+              </p>
+            </div>
+          </div>
+          <div class="basis-1/2 flex justify-center">
+            <div
+              class="flex mx-auto items-center flex-col justify-center w-[100%] max-md:items-start">
+              <div>
+                <h1
+                  class="font-extrabold text-[28px] text-[#292929] text-start">
+                  welcome-курс
+                </h1>
+
+                <p class="text-start py-3">
+                  Запишитесь, чтобы пройти бесплатный
+                  <br class="max-[425px]:hidden" />
+                  welcome-курс.
+                </p>
+                <button
+                  class="border border-[#007db6] text-[15px] bg-[#007db6] py-3 px-6 rounded text-white font-medium transition-all hover:bg-[#59c1f1] active:scale-[0.9] max-[425px]:w-full">
+                  Записаться
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pt-[81px] pb-[81px]">
+      <div class="container1">
+        <div
+          class="flex items-start justify-between gap-5 max-[746px]:flex-col max-[746px]:items-center">
+          <h1
+            class="font-extrabold text-[32px] uppercase text-[#292929] text-start max-[746px]:text-center max-[355px]:text-[25px]">
+            пройдите <br />
+            диагностику
+          </h1>
+          <div
+            class="flex items-start flex-col gap-8 max-[746px]:items-center max-[746px]:text-center">
+            <p
+              class="text-[15px] text-[#292929] font-normal max-[355px]:text-[13px]">
+              Вы можете пройти профессиональную
+              <br class="max-[746px]:hidden" />
+              диагностику на нашем сайте и получить
+              <br class="max-[746px]:hidden" />
+              результаты сразу после ее прохождения.
+            </p>
+            <button
+              class="max-[746px]:hidden border border-[#007db6] max-[425px]:w-full text-[15px] bg-[#007db6] py-3 px-6 rounded text-white font-medium transition-all hover:bg-[#59c1f1] active:scale-[0.9]">
+              Пройти диагностику
+            </button>
+          </div>
+          <p class="text-[15px] text-[#292929] font-normal max-[746px]:hidden">
+            В любое время <br />
+            и бесплатно
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="max-[290px]:px-5">
+      <div class="container1 overflow-x-scroll">
+        <div
+          class="flex items-end justify-between gap-10 max-[1046px]:w-[993px] mb-9">
+          <div
+            class="rounded-[16px] bg-[#F4F9FB] py-[60px] max-[425px]:py-[30px] flex items-center gap-10 justify-center flex-col w-[260px]">
+            <img src="./src/assets/img/clock.png" alt="" />
+            <div>
+              <p class="text-center font-extrabold text-[24px] uppercase">
+                в любое <br />
+                время
+              </p>
+            </div>
+          </div>
+          <div
+            class="rounded-[16px] bg-[#F4F9FB] max-[425px]:py-[30px] h-full pb-[60px] max-[425px]:py-[30px] flex items-center gap-10 justify-center flex-col w-[260px]">
+            <img
+              class="mt-[-50px] max-[425px]:mt-0"
+              src="./src/assets/img/location.png"
+              alt="" />
+            <div>
+              <p class="text-center font-extrabold text-[24px] uppercase">
+                прямо на <br />
+                сайте
+              </p>
+            </div>
+          </div>
+          <div
+            class="rounded-[16px] bg-[#F4F9FB] max-[425px]:py-[30px] h-full pb-[60px] max-[425px]:py-[30px] flex items-center gap-10 justify-center flex-col w-[260px]">
+            <img
+              class="mt-[-50px] max-[425px]:mt-0"
+              src="./src/assets/img/rocket.png"
+              alt="" />
+            <div>
+              <p class="text-center font-extrabold text-[24px] uppercase">
+                бесплатно
+              </p>
+              <div class="hidden max-[425px]:block">
+                <p><br /></p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="rounded-[16px] bg-[#F4F9FB] py-[60px] max-[425px]:py-[30px] flex items-center gap-10 justify-center flex-col w-[260px]">
+            <img src="./src/assets/img/delete.png" alt="" />
+            <div>
+              <p class="text-center font-extrabold text-[24px] uppercase">
+                результаты – <br />
+                сразу же
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="container1 flex justify-center">
+        <button
+          class="max-[746px]:block hidden border border-[#007db6] max-[425px]:w-full text-[15px] bg-[#007db6] py-3 px-6 rounded text-white font-medium transition-all hover:bg-[#59c1f1] active:scale-[0.9]">
+          Пройти диагностику
+        </button>
+      </div>
+    </section>
+    <section class="py-10">
+      <div class="flex flex-col gap-10">
+        <div
+          class="container1 flex items-center justify-between gap-10 max-[1071px]:hidden">
+          <div class="rounded-[16px] bg-[#f4f9fb]">
+            <img src="./src/assets/img/card1.png" alt="" />
+            <div class="p-[23px]">
+              <p class="text-[#A0A0A0] text-[15px] font-normal pb-2">
+                28.06.2023
+              </p>
+              <h1 class="text-[#292929] text-[18px] font-semibold pb-1">
+                Современная методология разработки <br />
+                оказалась ошибочной
+              </h1>
+              <p class="text-[#3D3D3D] text-[15px] font-normal">
+                Частотность поисковых запросов оказалась ошибочной
+              </p>
+            </div>
+          </div>
+          <div class="rounded-[16px] bg-[#f4f9fb] w-fit">
+            <img src="./src/assets/img/card2.png" alt="" />
+            <div class="p-[23px]">
+              <p class="text-[#A0A0A0] text-[15px] font-normal pb-2">
+                28.06.2023
+              </p>
+              <h1 class="text-[#292929] text-[18px] font-semibold pb-1">
+                Современная методология <br />
+                разработки оказалась
+              </h1>
+              <div class=" ">
+                <p class="text-[#3D3D3D] text-[15px] font-normal">
+                  Частотность поисковых запросов ...
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="overflow-x-scroll container1">
+          <div
+            class="flex items-start justify-between gap-10 max-[1071px]:w-[1800px]">
+            <div
+              class="rounded-[16px] bg-[#f4f9fb] w-fit hidden max-[1071px]:block">
+              <img class="w-full" src="./src/assets/img/card3.png" alt="" />
+              <div class="p-[23px]">
+                <p class="text-[#A0A0A0] text-[15px] font-normal pb-2">
+                  28.06.2023
+                </p>
+                <h1 class="text-[#292929] text-[18px] font-semibold pb-1">
+                  Современная методология <br />
+                  разработки оказалась ошибочной
+                </h1>
+                <div class=" ">
+                  <p class="text-[#3D3D3D] text-[15px] font-normal">
+                    Частотность поисковых запросов ...
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="rounded-[16px] bg-[#f4f9fb] w-fit hidden max-[1071px]:block">
+              <img class="w-full" src="./src/assets/img/crd1last.png" alt="" />
+              <div class="p-[23px]">
+                <p class="text-[#A0A0A0] text-[15px] font-normal pb-2">
+                  28.06.2023
+                </p>
+                <h1 class="text-[#292929] text-[18px] font-semibold pb-1">
+                  Современная методология <br />
+                  разработки оказалась ошибочной
+                </h1>
+                <div class=" ">
+                  <p class="text-[#3D3D3D] text-[15px] font-normal">
+                    Частотность поисковых запросов ...
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="max-[1071px]:w-[360px] rounded-[16px] bg-[#f4f9fb] w-fit">
+              <img class="w-full" src="./src/assets/img/card5.png" alt="" />
+              <div class="p-[23px]">
+                <p class="text-[#A0A0A0] text-[15px] font-normal pb-2">
+                  28.06.2023
+                </p>
+                <h1 class="text-[#292929] text-[18px] font-semibold pb-1">
+                  Современная методология <br />
+                  разработки оказалась ошибочной
+                </h1>
+                <div class=" ">
+                  <p class="text-[#3D3D3D] text-[15px] font-normal">
+                    Частотность поисковых запросов ...
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="rounded-[16px] bg-[#f4f9fb] w-fit">
+              <img class="w-full" src="./src/assets/img/card6.png" alt="" />
+              <div class="p-[23px]">
+                <p class="text-[#A0A0A0] text-[15px] font-normal pb-2">
+                  28.06.2023
+                </p>
+                <h1 class="text-[#292929] text-[18px] font-semibold pb-1">
+                  Современная методология <br />
+                  разработки оказалась ошибочной
+                </h1>
+                <div class=" ">
+                  <p class="text-[#3D3D3D] text-[15px] font-normal">
+                    Частотность поисковых запросов ...
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="rounded-[16px] bg-[#f4f9fb] w-fit">
+              <img class="w-full" src="./src/assets/img/card2last.png" alt="" />
+              <div class="p-[23px]">
+                <p class="text-[#A0A0A0] text-[15px] font-normal pb-2">
+                  28.06.2023
+                </p>
+                <h1 class="text-[#292929] text-[18px] font-semibold pb-1">
+                  Современная методология <br />
+                  разработки оказалась ошибочной
+                </h1>
+                <div class=" ">
+                  <p class="text-[#3D3D3D] text-[15px] font-normal">
+                    Частотность поисковых запросов ...
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-[#f4f9fb] py-[30px]">
+      <div class="container1">
+        <div class="flex items-center">
+          <div class="w-[50%] max-[735px]:w-full flex justify-center flex-col">
+            <h1
+              class="font-extrabold text-[28px] text-[#292929] text-start max-[735px]:text-center">
+              карьерная консультация
+            </h1>
+
+            <p
+              class="text-start py-3 max-[735px]:text-center max-[735px]:text-[12px]">
+              Запишитесь, чтобы получить бесплатную
+              <br class="" />
+              карьерную консультацию.
+            </p>
+            <button
+              class="border w-fit border-[#007db6] text-[15px] bg-[#007db6] py-3 px-6 rounded text-white font-medium transition-all hover:bg-[#59c1f1] active:scale-[0.9] max-[425px]:w-full">
+              Записаться
+            </button>
+          </div>
+          <div
+            class="flex items-center justify-center w-[50%] mt-[-60px] max-[735px]:hidden">
+            <img src="./src/assets/img/microphone.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-10">
+      <div
+        class="container1 py-10 flex items-center gap-10 max-[945px]:grid max-[945px]:grid-cols-2 max-[615px]:grid-cols-1">
+        <div
+          class="rounded-[16px] bg-[#FF879F] py-[27px] px-[40px] w-full max-[375px]:px-[20px]">
+          <div
+            class="rounded-[8px] px-[13px] py-[5px] text-[#FF879F] w-fit bg-[#fff] mb-8 text-[18px] font-semibold max-[375px]:text-[13px]">
+            1
+          </div>
+          <h1 class="text-[24px] font-bold text-white max-[375px]:text-[16px]">
+            Запишитесь
+          </h1>
+          <p class="text-[15px] font-normal text-white max-[375px]:text-[13px]">
+            на консультацию
+          </p>
+        </div>
+        <div
+          class="rounded-[16px] bg-[#65B2D6] py-[27px] px-[40px] w-full max-[375px]:px-[20px]">
+          <div
+            class="rounded-[8px] px-[13px] py-[5px] text-[#65B2D6] w-fit bg-[#fff] mb-8 text-[18px] font-semibold max-[375px]:text-[13px]">
+            2
+          </div>
+          <h1 class="text-[24px] font-bold text-white max-[375px]:text-[16px]">
+            пройдите опрос
+          </h1>
+          <p class="text-[15px] font-normal text-white max-[375px]:text-[13px]">
+            в удобное время
+          </p>
+        </div>
+        <div
+          class="rounded-[16px] bg-[#F0D075] py-[27px] px-[40px] w-full max-[375px]:px-[20px]">
+          <div
+            class="rounded-[8px] px-[13px] py-[5px] text-[#F0D075] w-fit bg-[#fff] mb-8 text-[18px] font-semibold max-[375px]:text-[13px]">
+            3
+          </div>
+          <h1 class="text-[24px] font-bold text-white max-[375px]:text-[16px]">
+            результаты
+          </h1>
+          <p class="text-[15px] font-normal text-white max-[375px]:text-[13px]">
+            получите на ваш e-mail
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="mb-10">
+      <div
+        class="container1 flex items-start justify-between gap-10 max-[1062px]:flex-col">
+        <div class="w-[50% max-[1062px]:w-full flex justify-center flex-col">
+          <h1
+            class="font-extrabold text-[28px] text-[#292929] max-[320px]:text-[25px] text-start max-[735px]:text-center">
+            Остались вопросы?
+          </h1>
+
+          <p
+            class="text-start py-3 max-[735px]:text-center max-[735px]:text-[12px]">
+            Ответы на часто задаваемые вопросы здесь. Специалисты
+            <br class="max-[1062px]:hidden" />
+            службы поддержки банка резюме могут оказывать вам
+            <br class="max-[375px]:hidden" />помощь в заполнении резюме.Если у
+            вас возникли <br class="max-[1062px]:hidden" />сложности или
+            вопросы, вы можете связаться с нами.
+          </p>
+          <div class="max-[735px]:flex justify-center">
+            <button
+              class="border w-fit border-[#007db6] text-[15px] bg-[#007db6] py-3 px-6 rounded text-white font-medium transition-all hover:bg-[#59c1f1] active:scale-[0.9] max-[425px]:w-full">
+              Обратная связь
+            </button>
+          </div>
+        </div>
+        <div class="w-[50%] max-[1062px]:w-full">
+          <ul uk-accordion>
+            <li class="uk-open border border-[#aadcf3] rounded-[16px] p-3">
+              <a class="uk-accordion-title max-[431px]:text-[12px]" href
+                >Как пользоваться Банком резюме?</a
+              >
+              <div class="uk-accordion-content">
+                <p>
+                  Ответы на часто задаваемые вопросы здесь. Специалисты службы
+                  поддержки банка резюме могут оказывать вам помощь в заполнении
+                  резюме. Если у вас возникли сложности или вопросы, вы можете
+                  связаться с нами.
+                </p>
+              </div>
+            </li>
+            <li class="border border-[#aadcf3] rounded-[16px] p-3">
+              <a class="uk-accordion-title max-[431px]:text-[12px]" href
+                >Как пользоваться Банком резюме?</a
+              >
+              <div class="uk-accordion-content">
+                <p>
+                  Ответы на часто задаваемые вопросы здесь. Специалисты службы
+                  поддержки банка резюме могут оказывать вам помощь в заполнении
+                  резюме. Если у вас возникли сложности или вопросы, вы можете
+                  связаться с нами.
+                </p>
+              </div>
+            </li>
+            <li class="border border-[#aadcf3] rounded-[16px] p-3">
+              <a class="uk-accordion-title max-[431px]:text-[12px]" href
+                >IКак пользоваться Банком резюме?</a
+              >
+              <div class="uk-accordion-content">
+                <p>
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor reprehenderit.
+                </p>
+              </div>
+            </li>
+            <li class="border border-[#aadcf3] rounded-[16px] p-3">
+              <a class="uk-accordion-title max-[431px]:text-[12px]" href
+                >Как пользоваться Банком резюме?</a
+              >
+              <div class="uk-accordion-content">
+                <p>
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                  occaecat cupidatat proident.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-[#f4f9fb] py-10">
+      <div class="container1">
+        <div>
+          <div
+            class="flex justify-between items-center text-[#7A7A7A] max-[722px]:flex-col max-[722px]:gap-5">
+            <a class="hover:text-[#65B2D6] hover:underline" href=""
+              >Служба поддержки</a
+            >
+            <div class="flex flex-col gap-2 max-[722px]:text-center">
+              <a class="hover:text-[#65B2D6] hover:underline" href=""
+                >Пользовательское соглашение</a
+              >
+              <a class="hover:text-[#65B2D6] hover:underline" href=""
+                >Правовая информация</a
+              >
+            </div>
+            <div class="flex flex-col gap-2 max-[722px]:text-center">
+              <a class="hover:text-[#65B2D6] hover:underline" href=""
+                >Контакты</a
+              >
+              <a class="hover:text-[#65B2D6] hover:underline" href=""
+                >Помощь (FAQ)</a
+              >
+            </div>
+            <div class="flex items-center gap-2">
+              <a class="hover:text-[#65B2D6] hover:underline" href="">
+                <img src="./src/assets/img/footerimg.png" alt=""
+              /></a>
+              <a class="hover:text-[#65B2D6] hover:underline" href="">
+                <img src="./src/assets/img/footerimg2.png" alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="text-center pt-10 text-[#7A7A7A]">
+            <p>© Департамент образования и науки г. Москвы, 2023</p>
+            <p>
+              При полном или частичном использовании материалов с официальных
+              сайтов Правительства Москвы ссылка на источник обязательна.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.16/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.16/dist/js/uikit-icons.min.js"></script>
+    <input id="check" type="checkbox" class="hidden" />
+
+    <aside class="rightsidebar flex w-full bg-[#f4f9fb]">
+      <label
+        class="w-[20%] h-[100vh] backdrop-blur-sm bg-[#0000005f]"
+        for="check">
+        <div></div>
+      </label>
+      <div class="w-[80%]">
+        <div class="flex flex-col gap-3 p-2">
+          <button
+            class="border text-[15px] border-[#007db6] bg-[#007db6] py-3 px-6 rounded text-white font-medium transition-all hover:bg-[#59c1f1] active:scale-[0.9]">
+            Вход для соискателя
+          </button>
+          <button
+            class="border border-[#007db6] text-[15px] bg-[#007db6] py-3 px-6 rounded text-white font-medium transition-all hover:bg-[#59c1f1] active:scale-[0.9]">
+            Вход для директора
+          </button>
+          <button
+            class="border border-[#007db6] text-[15px] bg-[#fff] py-3 px-6 rounded text-[#007db6] font-medium transition-all hover:bg-[#59c1f1] active:scale-[0.9]">
+            Регистрация
+          </button>
+          <ul class="flex items-start flex-col gap-6">
+            <li>
+              <a
+                class="hover:text-[#007db6] hover:underline font-normal text-[15px] text-[#292929]"
+                href=""
+                >Пользовательское соглашение</a
+              >
+            </li>
+            <li>
+              <a
+                class="hover:text-[#007db6] hover:underline font-normal text-[15px] text-[#292929]"
+                href=""
+                >Правовая информация</a
+              >
+            </li>
+            <li>
+              <a
+                class="hover:text-[#007db6] hover:underline font-normal text-[15px] text-[#292929]"
+                href=""
+                >Контакты</a
+              >
+            </li>
+            <li>
+              <a
+                class="hover:text-[#007db6] hover:underline font-normal text-[15px] text-[#292929]"
+                href=""
+                >Помощь (FAQ)</a
+              >
+            </li>
+            <li>
+              <a
+                class="hover:text-[#007db6] hover:underline font-normal text-[15px] text-[#292929]"
+                href=""
+                >Служба поддержки</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </aside>
+  </body>
+</html>
